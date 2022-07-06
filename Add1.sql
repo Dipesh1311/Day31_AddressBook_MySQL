@@ -58,4 +58,6 @@ select count(*) from addressBook where booktype='Family';
 
 -- UC11
 
-
+Insert into addressBook values ('Ashish','Navre','Mohan Palm','Malgoan','Delhi','577527','7894561235','Ashish@gmail.com','Book4','Friend' ),
+('Mangesh','Phadke','Gayatri Nagar','Ludhiana','Punjab','933527','8974829202','Mangesh@gmail.com','Book5','Family' );
+select * from addressBook;
